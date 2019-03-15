@@ -1,63 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Hannah Allen | Web Development</title>
 	<meta charset="UTF-8">
-	<title>Hannah Allen</title>
+	<meta name="description" content="Hannah Allen is a Toronto based website maker, designer, and strategist.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49467502-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-49467502-1');
+	</script>
 </head>
 <body>
-	<a href="#maincontent" class="skip-link">Skip to main content.</a>
-	<nav>
-		<ul>
-			<li>Process</li>
-			<li>Work</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-	<header>
-		<h1>Hello, I'm Hannah</h1>
-		<h2>Website maler, designer, and strategist</h2>
-		<p>I'm a web developer with a vareity of creative and web stragtegy based skills. I prioritize web accessbility and always focus on creating a fantastic user experience.</p>
-	</header>
-	<main id="maincontent" class="content">
-		<div class="process-wrap">
-			<h2>Process</h2>
-			<div class="process-item">
-				<img src="" alt=" ">
-				<div class="process-item-text">
-					<h3>Discovery and Research</h3>
-					<p>During the discovery phase I’ll learn the client’s business goals, needs, wants, wishes, deepest fears, and wildest dreams. Everybody’s got a vision, and this is the stage where I get to learn all about it! I’ll assess the project requirements and do things like a competitive analysis and user research. I’ll review existing analytics, begin a content audit, and work to create a spectacular business solution and website plan.</p>
+	<!-- <a href="#maincontent" class="skip-link">Skip to main content.</a> -->
+	<div class="wrapper">
+		<header>
+			<nav>
+				<ul>
+					<!-- Should the logo be in the nav? -->
+					<li class="push-left"><img src="images/logo-web.png" width="100" height="100" alt=""></li>
+					<li><a href="#what-i-do">What I do</a></li>
+					<li><a href="#things-ive-done">Things I've done</a></li>
+					<li><a href="#say-hello">Say hello!</a></li>
+				</ul>
+			</nav>
+			<div class="intro-text-wrap"> 	
+				<h1>Hello, I'm Hannah</h1>
+				<h2>Website maker, designer, and strategist</h2>
+				<p>I’m a web developer with a variety of creative and web strategy skills. I specialize in website creation, maintenance, and governance. With a focus on user experience, I make accessible and intuitively designed websites.</p>
+			</div>
+		</header>
+		<main id="maincontent" class="content">
+			<div class="process-wrap">
+				<div class="process-inner-wrap">
+					<h2 id="what-i-do">What I do</h2>
+					<div class="process-item">
+						<img src="images/research.svg" width="150" height="150" alt=" ">
+						<div class="process-item-text">
+							<h3>Discovery and Research</h3>
+							<p>Successful web projects start with research and a clear plan. It’s important to learn the business goals and then uncover the needs, wants and wishes for the new website. After learning the project requirements, this phase includes conducting user research, preparing a competitive analysis, reviewing existing web analytics, and performing a content audit. These steps will create the foundation for a spectacular new website.</p>
+						</div>
+					</div>
+					<div class="process-item flipped">
+						<img src="images/ia.svg" width="150" height="150" alt=" ">
+						<div class="process-item-text">
+							<h3>Prototype and IA</h3>
+							<p>The information architecture (IA) is one of the most crucial parts of any exceptional website. Before starting the design, it’s essential to organize the content so that users can effortlessly navigate the website. To determine the most logical organization of content, it may be helpful to conduct a card sorting exercise and then build the determined navigation into wireframes.</p>
+						</div>
+					</div>
+					<div class="process-item">
+						<img src="images/design.svg" width="150" height="150" alt=" ">
+						<div class="process-item-text">
+							<h3>Design</h3>
+							<p>The design phase is always exciting. Watching some rough wireframes come to life with colours and personality is like seeing your dreams become reality! Design decisions are made based on any existing brand standards, while always thinking of how to best serve the audience. Using tools like Sketch, I create intuitive and thoughtful user interfaces.<p>
+						</div>
+					</div>
+					<div class="process-item flipped">
+						<img src="images/code.svg" width="150" height="150" alt=" ">
+						<div class="process-item-text">
+							<h3>Develop</h3>
+							<p>I write front end code such as HTML, CSS, and JavaScript. Following coding best practises, I create responsive websites with a special focus on accessibility and user experience. I’ve been trained to perform accessibility audits of websites, and always work to ensure that the content, design, and functionality are inclusive.</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="process-item">
-				<img src="" alt=" ">
-				<div class="process-item-text">
-					<h3>Prototype and IA</h3>
-					<p>The information architecture (IA) is one of the most crucial parts of any successful website. Before starting the design, it’s essential to organize the content so that users can effortlessly navigate the website. To determine the most logical organization of content, I’ll conduct a card sorting exercise and then build the determined navigation into wireframes.</p>
+			<div class="work">
+				<div class="work-wrap">
+					<h2 id="things-ive-done">Things I've done</h2>
+					<div class="work-container">
+						<div class="work-item">
+							<a href="https://medium.com/@hannah.allen/germi-a565b203ba2d" target="_blank">
+								<img class="work-item-image" src="images/germi-white.jpg" alt="">
+								<div class="overlay">
+									<div class="work-text">
+										<h3>Germi</h3>
+										<p>UI Design</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="work-item">
+							<a href="https://medium.com/@hannah.allen/secret-santa-c32414e86bfc" target="_blank">
+								<img class="work-item-image" src="images/santa-white.jpg" alt="">
+								<div class="overlay">
+									<div class="blur">
+									<div class="work-text">
+										<h3>Pick Secret Santa</h3>
+										<p>Web Application</p>
+									</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- <div class="work-item">
+							<a href="#">
+								<img class="work-item-image" src="images/germi-white.jpg" alt="">
+								<div class="overlay">
+									<div class="work-text">
+										<h3>Germi</h3>
+										<p>UI Design</p>
+									</div>
+								</div>
+							</a>
+						</div> -->
+					</div>
 				</div>
 			</div>
-			<div class="process-item">
-				<img src="" alt=" ">
-				<div class="process-item-text">
-					<h3>Design</h3>
-					<p>The design phase is always exciting. Watching some rough wireframes come to life with colours and personality is like seeing your dreams become reality! Thoughtful UI (user interface) design is a key part of the process - I make decisions based on how to best serve the audience. A user shouldn’t have to think too hard while browsing a website. It should be intuitive and beautifully laid out, hopefully even triggering a spark of joy!</p>
-				</div>
+			<div class="contact-wrap">
+				<h2 id="say-hello">Say hello!</h2>
+				<img src="images/hannah.jpg" alt="Hannah Allen.">
+				<!-- <p>To learn more about me, download my resume.</p> -->
+				<p>If you’d like to say hello, email me at <a href="mailto:hello@hannahallen.ca">hello@hannahallen.ca</a>.</p>
+				<div class="copyright">Made in 🌨️ Toronto, Canada. 2019.</div>
 			</div>
-			<div class="process-item">
-				<img src="" alt=" ">
-				<div class="process-item-text">
-					<h3>Develop</h3>
-					<p>I write front end code such as HTML, CSS, and JavaScript. I’ve always loved starting with a beautiful design and finding creative, accessible methods of coding out a responsive webpage. I care a lot about web accessibility. I’ve been trained to perform accessibility audits of websites and ask myself before I put anything online - “does this serve the entire population as well as it possibly can? Is this design and functionality inclusive?” The answer should always be yes!</p>
-				</div>
-			</div>
-		</div>
-		<div class="work-wrap">
-			
-		</div>
-		
-		
-	</main>
-	<footer>
-		<p>Made in Toronto, Canada. 2018.</p>
-	</footer>
+		</main>
+	</div>
 </body>
 </html>
